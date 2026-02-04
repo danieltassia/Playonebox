@@ -6,6 +6,21 @@
     <title>Play One Box</title>
     <script type="module" crossorigin src="./assets/index-B0pNIe5b.js"></script>
     <link rel="stylesheet" crossorigin href="./assets/index-B5agho7J.css">
+    <style>
+  /* Shopify Buy Button - Always on top */
+  iframe[src*="shopify"] {
+    z-index: 999999 !important;
+    position: fixed !important;
+  }
+
+  .shopify-buy-frame {
+    z-index: 999999 !important;
+  }
+
+  .shopify-buy-cart-wrapper {
+    z-index: 999999 !important;
+  }
+</style>
   </head>
   <body>
     <div id="root"></div>
